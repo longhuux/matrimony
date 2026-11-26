@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 2,
+  "systemName": "Matrimony Editorial Design System",
+  "title": "Design System: Matrimony",
+  "generatedAt": "2026-11-26T07:05:00Z",
+  "source": {
+    "mode": "scan",
+    "productMd": "PRODUCT.md",
+    "designMd": "DESIGN.md",
+    "stylesheet": "src/app/globals.css",
+    "components": [
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/components/auth/login-form.tsx",
+      "src/components/dashboard/logout-button.tsx",
+      "src/app/page.tsx",
+      "src/app/dashboard/page.tsx"
+    ]
+  },
+  "tokens": {
+    "colors": {
+      "ivory": {
+        "hex": "#FFFCF9",
+        "oklch": "oklch(99.2% 0.006 68)",
+        "role": "neutral",
+        "alias": "bg-canvas",
+        "tonalRamp": [
+          "oklch(18% 0.012 68)",
+          "oklch(28% 0.012 68)",
+          "oklch(40% 0.011 68)",
+          "oklch(54% 0.010 68)",
+          "oklch(68% 0.009 68)",
+          "oklch(82% 0.008 68)",
+          "oklch(92% 0.007 68)",
+          "oklch(99.2% 0.006 68)"
+        ]
+      },
+      "surface": {
+        "hex": "#FFFFFF",
+        "oklch": "oklch(100% 0 0)",
+        "role": "neutral",
+        "alias": "bg-card",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(52% 0 0)",
+          "oklch(66% 0 0)",
+          "oklch(80% 0 0)",
+          "oklch(92% 0 0)",
+          "oklch(100% 0 0)"
+        ]
+      },
+      "blush": {
+        "hex": "#F5ECE6",
+        "oklch": "oklch(94.8% 0.015 48)",
+        "role": "neutral",
+        "alias": "bg-subtle",
+        "tonalRamp": [
+          "oklch(18% 0.018 48)",
+          "oklch(29% 0.020 48)",
+          "oklch(42% 0.022 48)",
+          "oklch(56% 0.021 48)",
+          "oklch(70% 0.019 48)",
+          "oklch(82% 0.017 48)",
+          "oklch(90% 0.016 48)",
+          "oklch(94.8% 0.015 48)"
+        ]
+      },
+      "burgundy": {
+        "hex": "#8B2635",
+        "oklch": "oklch(41.5% 0.135 16)",
+        "role": "primary",
+        "alias": "accent-primary",
+        "tonalRamp": [
+          "oklch(18% 0.075 16)",
+          "oklch(28% 0.110 16)",
+          "oklch(41.5% 0.135 16)",
+          "oklch(52% 0.145 16)",
+          "oklch(64% 0.125 16)",
+          "oklch(76% 0.085 16)",
+          "oklch(88% 0.045 16)",
+          "oklch(95% 0.018 16)"
+        ]
+      },
+      "burgundy-dark": {
+        "hex": "#6C1C28",
+        "oklch": "oklch(33.5% 0.115 16)",
+        "role": "primary",
+        "alias": "accent-primary-hover",
+        "tonalRamp": [
+          "oklch(15% 0.065 16)",
+          "oklch(24% 0.095 16)",
+          "oklch(33.5% 0.115 16)",
+          "oklch(45% 0.125 16)",
+          "oklch(58% 0.110 16)",
+          "oklch(72% 0.075 16)",
+          "oklch(85% 0.040 16)",
+          "oklch(94% 0.015 16)"
+        ]
+      },
+      "gold": {
+        "hex": "#C89D66",
+        "oklch": "oklch(72.5% 0.092 74)",
+        "role": "secondary",
+        "alias": "accent-gold",
+        "tonalRamp": [
+          "oklch(20% 0.040 74)",
+          "oklch(32% 0.065 74)",
+          "oklch(46% 0.085 74)",
+          "oklch(60% 0.095 74)",
+          "oklch(72.5% 0.092 74)",
+          "oklch(82% 0.068 74)",
+          "oklch(90% 0.038 74)",
+          "oklch(96% 0.015 74)"
+        ]
+      },
+      "amber-text": {
+        "hex": "#7C531E",
+        "oklch": "oklch(46.2% 0.092 68)",
+        "role": "tertiary",
+        "alias": "badge-amber-fg",
+        "tonalRamp": [
+          "oklch(18% 0.050 68)",
+          "oklch(30% 0.075 68)",
+          "oklch(46.2% 0.092 68)",
+          "oklch(58% 0.098 68)",
+          "oklch(70% 0.085 68)",
+          "oklch(82% 0.058 68)",
+          "oklch(91% 0.030 68)",
+          "oklch(96.8% 0.018 75)"
+        ]
+      },
+      "botanical-rose": {
+        "hex": "#9B4A5B",
+        "oklch": "oklch(49.2% 0.098 6)",
+        "role": "tertiary",
+        "alias": "badge-botanical-bg",
+        "tonalRamp": [
+          "oklch(18% 0.052 6)",
+          "oklch(32% 0.078 6)",
+          "oklch(49.2% 0.098 6)",
+          "oklch(60% 0.095 6)",
+          "oklch(72% 0.075 6)",
+          "oklch(83% 0.050 6)",
+          "oklch(91% 0.025 6)",
+          "oklch(96% 0.012 6)"
+        ]
+      },
+      "ink": {
+        "hex": "#231B18",
+        "oklch": "oklch(22.4% 0.017 38)",
+        "role": "neutral",
+        "alias": "text-primary",
+        "tonalRamp": [
+          "oklch(15% 0.014 38)",
+          "oklch(22.4% 0.017 38)",
+          "oklch(36% 0.018 38)",
+          "oklch(48% 0.018 38)",
+          "oklch(62% 0.015 38)",
+          "oklch(76% 0.012 38)",
+          "oklch(88% 0.008 38)",
+          "oklch(96% 0.005 38)"
+        ]
+      },
+      "ink-secondary": {
+        "hex": "#5A4B44",
+        "oklch": "oklch(42.2% 0.022 42)",
+        "role": "neutral",
+        "alias": "text-secondary",
+        "tonalRamp": [
+          "oklch(18% 0.016 42)",
+          "oklch(30% 0.020 42)",
+          "oklch(42.2% 0.022 42)",
+          "oklch(55% 0.020 42)",
+          "oklch(68% 0.017 42)",
+          "oklch(80% 0.013 42)",
+          "oklch(90% 0.009 42)",
+          "oklch(96% 0.005 42)"
+        ]
+      },
+      "ink-muted": {
+        "hex": "#6B5B53",
+        "oklch": "oklch(48.1% 0.021 44)",
+        "role": "neutral",
+        "alias": "text-muted",
+        "tonalRamp": [
+          "oklch(18% 0.016 44)",
+          "oklch(32% 0.019 44)",
+          "oklch(48.1% 0.021 44)",
+          "oklch(60% 0.019 44)",
+          "oklch(72% 0.016 44)",
+          "oklch(83% 0.012 44)",
+          "oklch(91% 0.008 44)",
+          "oklch(96% 0.005 44)"
+        ]
+      },
+      "border": {
+        "hex": "#EADBD1",
+        "oklch": "oklch(90.1% 0.021 50)",
+        "role": "neutral",
+        "alias": "border-subtle",
+        "tonalRamp": [
+          "oklch(20% 0.018 50)",
+          "oklch(34% 0.021 50)",
+          "oklch(48% 0.023 50)",
+          "oklch(62% 0.024 50)",
+          "oklch(74% 0.023 50)",
+          "oklch(84% 0.022 50)",
+          "oklch(90.1% 0.021 50)",
+          "oklch(96% 0.012 50)"
+        ]
+      },
+      "border-strong": {
+        "hex": "#D9C5B7",
+        "oklch": "oklch(83.2% 0.028 52)",
+        "role": "neutral",
+        "alias": "border-input",
+        "tonalRamp": [
+          "oklch(20% 0.020 52)",
+          "oklch(33% 0.024 52)",
+          "oklch(47% 0.027 52)",
+          "oklch(60% 0.029 52)",
+          "oklch(72% 0.029 52)",
+          "oklch(83.2% 0.028 52)",
+          "oklch(91% 0.019 52)",
+          "oklch(96% 0.010 52)"
+        ]
+      },
+      "stage-bg": {
+        "hex": "#16100E",
+        "oklch": "oklch(17.5% 0.015 36)",
+        "role": "neutral",
+        "alias": "led-stage-canvas",
+        "tonalRamp": [
+          "oklch(12% 0.012 36)",
+          "oklch(17.5% 0.015 36)",
+          "oklch(26% 0.017 36)",
+          "oklch(38% 0.018 36)",
+          "oklch(52% 0.016 36)",
+          "oklch(68% 0.012 36)",
+          "oklch(82% 0.008 36)",
+          "oklch(94% 0.005 36)"
+        ]
+      }
+    },
+    "typography": {
+      "display": {
+        "fontFamily": "var(--font-playfair), Georgia, 'Times New Roman', serif",
+        "fontSize": "3.75rem",
+        "fontWeight": 700,
+        "lineHeight": 1.15,
+        "letterSpacing": "-0.025em"
+      },
+      "headline": {
+        "fontFamily": "var(--font-playfair), Georgia, 'Times New Roman', serif",
+        "fontSize": "1.875rem",
+        "fontWeight": 700,
+        "lineHeight": 1.25,
+        "letterSpacing": "-0.015em"
+      },
+      "title": {
+        "fontFamily": "var(--font-playfair), Georgia, 'Times New Roman', serif",
+        "fontSize": "1.25rem",
+        "fontWeight": 600,
+        "lineHeight": 1.35,
+        "letterSpacing": "0em"
+      },
+      "body": {
+        "fontFamily": "var(--font-be-vietnam), ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "lineHeight": 1.625,
+        "letterSpacing": "0em"
+      },
+      "label": {
+        "fontFamily": "var(--font-be-vietnam), ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "0.75rem",
+        "fontWeight": 600,
+        "lineHeight": 1.4,
+        "letterSpacing": "0.02em"
+      }
+    },
+    "radii": {
+      "sm": "8px",
+      "md": "12px",
+      "lg": "16px",
+      "pill": "9999px"
+    },
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "2xl": "48px",
+      "section": "64px"
+    },
+    "shadows": {
+      "card": "0 8px 30px rgba(35, 27, 24, 0.04)",
+      "elevated": "0 12px 36px rgba(35, 27, 24, 0.08)",
+      "focusRing": "0 0 0 2px rgba(139, 38, 53, 0.4)"
+    },
+    "motion": {
+      "durationFast": "150ms",
+      "durationBase": "200ms",
+      "durationStage": "500ms",
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+    },
+    "breakpoints": {
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px"
+    }
+  },
+  "extensions": {
+    "colorMeta": {
+      "burgundy": {
+        "role": "primary",
+        "displayName": "Editorial Burgundy",
+        "canonical": "oklch(41.5% 0.135 16)",
+        "tonalRamp": [
+          "oklch(18% 0.075 16)",
+          "oklch(28% 0.110 16)",
+          "oklch(41.5% 0.135 16)",
+          "oklch(52% 0.145 16)",
+          "oklch(64% 0.125 16)",
+          "oklch(76% 0.085 16)",
+          "oklch(88% 0.045 16)",
+          "oklch(95% 0.018 16)"
+        ]
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "Warm Ivory Ground",
+        "canonical": "oklch(99.2% 0.006 68)",
+        "tonalRamp": [
+          "oklch(18% 0.012 68)",
+          "oklch(28% 0.012 68)",
+          "oklch(40% 0.011 68)",
+          "oklch(54% 0.010 68)",
+          "oklch(68% 0.009 68)",
+          "oklch(82% 0.008 68)",
+          "oklch(92% 0.007 68)",
+          "oklch(99.2% 0.006 68)"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Antique Gold",
+        "canonical": "oklch(72.5% 0.092 74)",
+        "tonalRamp": [
+          "oklch(20% 0.040 74)",
+          "oklch(32% 0.065 74)",
+          "oklch(46% 0.085 74)",
+          "oklch(60% 0.095 74)",
+          "oklch(72.5% 0.092 74)",
+          "oklch(82% 0.068 74)",
+          "oklch(90% 0.038 74)",
+          "oklch(96% 0.015 74)"
+        ]
+      },
+      "amber-text": {
+        "role": "tertiary",
+        "displayName": "Warm Amber Badge Ink",
+        "canonical": "oklch(46.2% 0.092 68)",
+        "tonalRamp": [
+          "oklch(18% 0.050 68)",
+          "oklch(30% 0.075 68)",
+          "oklch(46.2% 0.092 68)",
+          "oklch(58% 0.098 68)",
+          "oklch(70% 0.085 68)",
+          "oklch(82% 0.058 68)",
+          "oklch(91% 0.030 68)",
+          "oklch(96.8% 0.018 75)"
+        ]
+      },
+      "botanical-rose": {
+        "role": "tertiary",
+        "displayName": "Blush Botanical Rose",
+        "canonical": "oklch(49.2% 0.098 6)",
+        "tonalRamp": [
+          "oklch(18% 0.052 6)",
+          "oklch(32% 0.078 6)",
+          "oklch(49.2% 0.098 6)",
+          "oklch(60% 0.095 6)",
+          "oklch(72% 0.075 6)",
+          "oklch(83% 0.050 6)",
+          "oklch(91% 0.025 6)",
+          "oklch(96% 0.012 6)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display Serif", "purpose": "Marketing hero headline only." },
+      "headline": { "displayName": "Section Headline", "purpose": "Section headings and dashboard H1." },
+      "title": { "displayName": "Card & Template Title", "purpose": "Feature cards, auth card title, template names." },
+      "body": { "displayName": "Editorial Body", "purpose": "Descriptions, pricing checklists, form copy." },
+      "label": { "displayName": "UI Label & Badge", "purpose": "Form labels, pills, metadata captions." }
+    },
+    "shadows": [
+      { "name": "card", "value": "0 8px 30px rgba(35, 27, 24, 0.04)", "purpose": "Resting warm-ink shadow on Card surfaces." },
+      { "name": "elevated", "value": "0 12px 36px rgba(35, 27, 24, 0.08)", "purpose": "Elevated panels and stage cards." }
+    ],
+    "motion": [
+      { "name": "ease-editorial", "value": "cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Smooth deceleration for color, focus, and stage entrances." },
+      { "name": "duration-base", "value": "200ms", "purpose": "Standard interactive color and hover transitions." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary pill action button for starting invitation creation, OTP submission, and highlighted CTAs.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">Bắt đầu tạo thiệp ngay</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 24px; border: none; border-radius: var(--radius-pill, 9999px); background: var(--color-burgundy, #8B2635); color: var(--color-surface, #FFFFFF); font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 14px; font-weight: 500; cursor: pointer; box-shadow: 0 1px 2px rgba(35, 27, 24, 0.08); transition: background-color 150ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn-primary:hover { background: var(--color-burgundy-dark, #6C1C28); } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 2px rgba(139, 38, 53, 0.4); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Soft blush pill button for secondary workspace actions.",
+      "html": "<button class=\"ds-btn-secondary\" type=\"button\">Lưu bản nháp</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 24px; border: 1px solid #E5D3C7; border-radius: var(--radius-pill, 9999px); background: var(--color-blush, #F5ECE6); color: var(--color-ink, #231B18); font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 14px; font-weight: 500; cursor: pointer; transition: background-color 150ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn-secondary:hover { background: var(--color-border, #EADBD1); } .ds-btn-secondary:focus-visible { outline: none; box-shadow: 0 0 0 2px rgba(139, 38, 53, 0.4); }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Warm sand bordered pill button used for logout, Google OAuth, and secondary plan choices.",
+      "html": "<button class=\"ds-btn-outline\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4\"/><polyline points=\"16 17 21 12 16 7\"/><line x1=\"21\" y1=\"12\" x2=\"9\" y2=\"12\"/></svg><span>Đăng xuất</span></button>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 36px; padding: 0 16px; border: 1px solid var(--color-border-strong, #D9C5B7); border-radius: var(--radius-pill, 9999px); background: var(--color-surface, #FFFFFF); color: var(--color-ink, #231B18); font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 12px; font-weight: 500; cursor: pointer; transition: background-color 150ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn-outline:hover { background: var(--color-blush-hover, #FFF6F0); } .ds-btn-outline:focus-visible { outline: none; box-shadow: 0 0 0 2px rgba(139, 38, 53, 0.4); }"
+    },
+    {
+      "name": "Surface Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Primary editorial container with champagne hairline stroke and warm-ink whisper shadow.",
+      "html": "<article class=\"ds-card\"><span class=\"ds-badge-amber\">Độc quyền tại sảnh tiệc</span><h3 class=\"ds-card-title\">Màn hình LED Tương tác Realtime</h3><p class=\"ds-card-body\">Khách mời quét QR gửi ảnh và lời chúc bay trực tiếp lên màn hình hội trường.</p></article>",
+      "css": ".ds-card { border: 1px solid var(--color-border, #EADBD1); border-radius: var(--radius-lg, 16px); background: rgba(255, 255, 255, 0.95); padding: 24px; box-shadow: var(--shadow-card, 0 8px 30px rgba(35, 27, 24, 0.04)); } .ds-card-title { margin: 10px 0 0; font-family: var(--font-serif, 'Playfair Display', Georgia, serif); font-size: 20px; font-weight: 600; color: var(--color-ink, #231B18); } .ds-card-body { margin: 8px 0 0; font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 14px; line-height: 1.625; color: var(--color-ink-secondary, #5A4B44); }"
+    },
+    {
+      "name": "Form Input",
+      "kind": "input",
+      "refersTo": "input-email",
+      "description": "Accessible single-line text field with leading icon, WCAG placeholder contrast, and burgundy focus halo.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-label\" for=\"ds-email\">Địa chỉ Email</label><div class=\"ds-input-wrap\"><svg class=\"ds-input-icon\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"/><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/></svg><input id=\"ds-email\" class=\"ds-input\" type=\"email\" autocomplete=\"email\" placeholder=\"tenban@example.com\" /></div></div>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; max-width: 360px; } .ds-label { font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 12px; font-weight: 600; color: #4A3D37; } .ds-input-wrap { position: relative; } .ds-input-icon { position: absolute; left: 14px; top: 12px; color: var(--color-ink-muted, #6B5B53); pointer-events: none; } .ds-input { width: 100%; height: 40px; padding: 0 12px 0 40px; border: 1px solid var(--color-border-strong, #D9C5B7); border-radius: var(--radius-md, 12px); background: var(--color-surface, #FFFFFF); color: var(--color-ink, #231B18); font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 14px; transition: border-color 150ms ease, box-shadow 150ms ease; } .ds-input::placeholder { color: var(--color-ink-muted, #6B5B53); } .ds-input:focus { border-color: var(--color-burgundy, #8B2635); } .ds-input:focus-visible { outline: none; box-shadow: 0 0 0 2px rgba(139, 38, 53, 0.4); }"
+    },
+    {
+      "name": "Status Badges",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "WCAG AA verified amber milestone badge, blush plan chip, and botanical template tier pill.",
+      "html": "<div class=\"ds-badge-row\"><span class=\"ds-badge-amber\">Ngày 3–4</span><span class=\"ds-badge-blush\">Gói: Miễn phí</span><span class=\"ds-badge-botanical\">Blush Botanical</span></div>",
+      "css": ".ds-badge-row { display: inline-flex; flex-wrap: wrap; gap: 8px; align-items: center; } .ds-badge-amber { display: inline-block; padding: 2px 10px; border-radius: var(--radius-pill, 9999px); background: var(--color-amber-surface, #FFF4E8); color: var(--color-amber-text, #7C531E); font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 11px; font-weight: 600; } .ds-badge-blush { display: inline-block; padding: 6px 16px; border: 1px solid #E5D3C7; border-radius: var(--radius-pill, 9999px); background: var(--color-blush, #F5ECE6); color: var(--color-burgundy, #8B2635); font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 12px; font-weight: 600; } .ds-badge-botanical { display: inline-block; padding: 2px 10px; border-radius: var(--radius-pill, 9999px); background: var(--color-botanical-rose, #9B4A5B); color: var(--color-surface, #FFFFFF); font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 11px; font-weight: 600; }"
+    },
+    {
+      "name": "Wedding Template Preview Card",
+      "kind": "custom",
+      "refersTo": "template-preview-card",
+      "description": "3:4 stationery specimen card showcasing one of the 5 flagship wedding invitation themes.",
+      "html": "<div class=\"ds-template-card\"><div class=\"ds-template-canvas\"><span class=\"ds-badge-botanical\">Miễn phí</span><p class=\"ds-template-title\">Blush Botanical</p><p class=\"ds-template-meta\">Responsive 100%</p></div><p class=\"ds-template-caption\">Blush Botanical</p></div>",
+      "css": ".ds-template-card { width: 210px; padding: 16px; border: 1px solid var(--color-border, #EADBD1); border-radius: var(--radius-lg, 16px); background: rgba(255, 255, 255, 0.95); box-shadow: var(--shadow-card, 0 8px 30px rgba(35, 27, 24, 0.04)); } .ds-template-canvas { display: flex; flex-direction: column; align-items: center; justify-content: center; aspect-ratio: 3 / 4; padding: 16px; border: 1px solid var(--color-border, #EADBD1); border-radius: var(--radius-md, 12px); background: #FFF7FA; text-align: center; } .ds-template-title { margin: 8px 0 0; font-family: var(--font-serif, 'Playfair Display', Georgia, serif); font-size: 18px; font-weight: 700; color: var(--color-ink, #231B18); } .ds-template-meta { margin: 4px 0 0; font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 12px; color: var(--color-ink-muted, #6B5B53); } .ds-template-caption { margin: 12px 0 0; text-align: center; font-family: var(--font-sans, 'Be Vietnam Pro', sans-serif); font-size: 14px; font-weight: 600; color: var(--color-ink, #231B18); }"
+    }
+  ],
+  "sections": [
+    "Visual Theme & Atmosphere",
+    "Color Palette & Roles",
+    "Typography Rules",
+    "Component Stylings",
+    "Layout Principles",
+    "Depth & Elevation",
+    "Do's and Don'ts",
+    "Design System Governance"
+  ],
+  "narrative": {
+    "northStar": "The Editorial Wedding Atelier",
+    "overview": "Matrimony balances the tactile warmth of fine cotton wedding stationery with the speed and precision of a modern mobile-first web studio. Every marketing, authentication, and workspace surface rests on a warm ivory paper ground (#FFFCF9) framed by soft blush tints (#F5ECE6), hairline champagne-taupe borders (#EADBD1), and deep espresso ink (#231B18) rather than sterile blue-gray tech neutrals.\n\nPrimary actions and ceremonial highlights are anchored in Editorial Burgundy (#8B2635), evoking traditional Vietnamese crimson wedding wax seals and silk ribbons without visual noise. For the reception-hall Live LED projection surface (/stage/[slug]), the system intentionally shifts into an ambient Dark Stage polarity (#16100E ground, #FFFCF9 typography, #C89D66 gold accents) so projected guest photos and wishes glow cleanly in dimly lit banquet halls.",
+    "keyCharacteristics": [
+      "Warm stationery ivory ground (#FFFCF9) paired with crisp white cards (#FFFFFF) and blush accents (#F5ECE6).",
+      "High-contrast Vietnamese editorial serif headings (Playfair Display) paired with geometric humanist sans-serif body & controls (Be Vietnam Pro).",
+      "Pill-shaped action buttons (9999px) contrasted with softly rounded editorial cards (16px) and form fields (12px).",
+      "WCAG 2.1 AA compliant muted text (#6B5B53), warm amber badges (#7C531E on #FFF4E8), and botanical pills (#9B4A5B).",
+      "Calm, flat-by-default elevation relying on warm hairline borders (#EADBD1) and subtle warm-ink ambient shadows (rgba(35, 27, 24, 0.04))."
+    ],
+    "rules": [
+      {
+        "name": "The Warm Paper & Ink Rule",
+        "body": "Never pair cool slate grays or pure #000000 black with #FFFCF9 ivory. All neutrals stay rooted in warm umber (#231B18 -> #5A4B44 -> #6B5B53) so typography feels printed on stationery rather than overlaid on a generic SaaS template.",
+        "section": "colors"
+      },
+      {
+        "name": "The Verified Contrast Rule",
+        "body": "All small text (<= 14px) must meet >= 4.5:1 contrast against its immediate surface (#6B5B53 minimum on light grounds, #7C531E on #FFF4E8, #FFFFFF on #8B2635 or #9B4A5B).",
+        "section": "colors"
+      },
+      {
+        "name": "The Vietnamese Diacritic Clarity Rule",
+        "body": "Never tighten display tracking below -0.03em or compress line-height below 1.15 on Vietnamese uppercase/lowercase stacked accents. Always load vietnamese font subsets with display: swap.",
+        "section": "typography"
+      },
+      {
+        "name": "The Whisper Shadow Rule",
+        "body": "Never apply cold pure-black shadows (rgba(0,0,0,0.25)) or hard neobrutalist block offsets on editorial wedding surfaces; tint every shadow with espresso ink (rgba(35, 27, 24, ...)).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use #6B5B53 (never #8C7A70) for muted text, captions, placeholders, and input icons on #FFFCF9 and #FFFFFF.",
+      "Do use #7C531E on #FFF4E8 for warm amber status pills and #9B4A5B (never #B56576) for Blush Botanical white-text pills.",
+      "Do wrap every page's primary content in <main> and attach focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8B2635]/40 to every <Link>, <a href>, and <input>.",
+      "Do write natural Vietnamese B2C copy (\"3 năm\", \"5 năm\", \"Đăng nhập nhanh bằng mã xác thực Email OTP bên dưới.\").",
+      "Do pair role=\"alert\" on error banners and role=\"status\" aria-live=\"polite\" on status/OTP confirmation banners."
+    ],
+    "donts": [
+      "Don't leak engineering jargon (\"Schema v2\", \"biến môi trường\", \"PostgreSQL + Redis\") into customer-facing headings or subtitles.",
+      "Don't render fixed-pixel 500px canvas layouts or break dual-family (Nhà Trai / Nhà Gái) symmetry on mobile viewports (390px).",
+      "Don't invent fake testimonials, fake couple names, or unverified metrics on marketing or dashboard screens.",
+      "Don't use gradient text, hard offset shadows, or emoji icons in place of lucide-react stroke icons."
+    ]
+  }
+}
